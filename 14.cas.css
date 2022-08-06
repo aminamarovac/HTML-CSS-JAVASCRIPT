@@ -1,0 +1,58 @@
+* {
+margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    /*font-size: 0.7cm;*/
+   /* font-size: 5mm;*/
+   /*font-size: 0.2in;*/
+   /*font-size: 16pt;*/
+   /*font-size: 1.2pc;*/
+}
+
+.main   {
+    margin: 20px auto;
+    width: 500px;
+    height: 500px;
+   /* width: 50 vw;*/
+   /* height: 50 vw;*/
+    background-color: rgba(164, 23, 23,0.5);
+    font-size: 20px;
+    
+
+}
+
+.child  {
+    /*font-size: 2rem;*/
+    font-size: 80%;
+}
+
+/*Absolute lengths*/
+
+/*1. cm centimetres 1cm=37px*/
+/*2. mm millimetres*/
+/*3. in inches (1in=96px)*/
+/*4. px pixels*/
+/*5. pt points*/
+/*6. pc picas (1pc=12pt)*/
+
+
+
+
+/*Relative lengths*/
+/*1. em */
+/*2. rem */
+/*3. vw Relativno 1% u odnosu na sirinu browsera*/
+/*4.vh Relativna  1% u odnosu na visinu browsera */
+/*5.vmin Relativna 1% u odnosu na sirinu ili visinu,
+zapravo sta bude manje od ta dva*/
+/*6.vmax Relativna 1% u odnosu na visinu i sirinu,zapravo
+sta bude vece u odnosu na ta dva*/
+/*7. % Relativna u odnosu na svog parent elementa */
+
+
+
+
+
