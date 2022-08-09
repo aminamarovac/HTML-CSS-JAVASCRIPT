@@ -57,8 +57,6 @@ BigInt(875829387587559076578865789);
 // Koristi se za anonimne i jedinstvene vrednosti.
 
 Symbol ("kako je bilo vreme");
-
-
 //2. Neprimitivni tipovi podataka (Non-Primitive data types).
 //   Primitivni tipovi podataka se koriste za skladistenje promenljivih (varijabli)
 //   koje imaju jednu vrednost.
