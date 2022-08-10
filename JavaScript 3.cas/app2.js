@@ -55,7 +55,7 @@ var d=15;
 d**=5; //d=15**5
 console.log(d);
 
-//3.JavaScript string operatori;
+//3.JavaaScript string operatori;
 //za spajanje stringova mozemo koristiti +operator
 //ako izvrsimo dodavanje stringa nekom broju(broja nekom stringu) preko + operatora dobicemo string.
 let m,n;
@@ -70,4 +70,5 @@ console.log(5-"4asd4");//uvek u slucaju nemogucnosti konvertovanja nekog stringa
 console.log(5 * "4");
 console.log(5 / "4");
 console.log(5 / "danas");
+
 
