@@ -71,4 +71,114 @@ console.log(5 * "4");
 console.log(5 / "4");
 console.log(5 / "danas");
 
+//4.Operatori poredjenja:
+
+// ==  - Proverava jednakost vrednosti
+var r,t;
+r=56;
+t=-56;
+console.log (r==t);
+
+// ===  - Proverava jednakost vrednosti i tipa
+let prom1,prom2;
+prom1=14;
+prom2="14";
+//console.log(prom1 == prom2);bolje je koristiti operator ===
+console.log(prom1===prom2);
+
+// != -Proverava nejednakost vrednosti
+let prom3,prom4;
+prom3=25;
+prom4="25";
+console.log(prom3!=prom4);
+
+// !== -Proverava nejednakost vrednosti ili nejednakost tipa
+let prom5,prom6;
+prom5=25;
+prom6=25;
+console.log(prom5 !==prom6);
+let prom7,prom8;
+prom7=26;
+prom8=25;
+console.log(prom7!==prom8);
+
+//>-Proverava da li je prva promenljiva veca od druge
+let prom9,prom10;
+prom9=52;
+prom10=25;
+console.log(prom9>prom10);
+
+//<-Proverava da li je prva vrednost manja od druge
+
+//>=-da li je prva vrednost veca ili jednaka drugoj
+let prom11,prom12;
+prom11=50;
+prom12=50;
+console.log(prom11>=prom12);
+
+//<= - da li je manja ili jednaka drugoj
+
+// ?-ternarni operator
+//sintaksa za njega je;
+//condition ? exprIfTrue:exprIfFalse
+
+// 5.Logicki operatori;
+
+// &&  - Logicko i 
+let var1,var2;
+var1=40;
+var2=17;
+console.log(var1>20 && var2<20);
+console.log(var1>20 && var2>20);
+
+// || - Logicko ili
+var1=40;
+var2=17;
+console.log(var1>20 || var2>20);
+
+//!-Logicko ne (not)
+let isSunny=false;
+console.log(!isSunny);
+
+//6.Tipovni operatori
+//typeof - Vraca tip promenljive;
+let var4=16.9;
+let var5="Trenutno je 26stepeni";
+var issSunny=false;
+console.log(typeof var4);
+console.log(typeof var5);
+console.log(typeof issSunny);
+
+//instanceof - Ispituje da li je tip odredjene promenljive instanca od objekta;
+let obj={
+    ime:"Moje ime",
+    prezime:"Moje prezime",
+}
+console.log (obj instanceof Object);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
