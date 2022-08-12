@@ -11,7 +11,7 @@ console.log(typeof brojGodina);
 brojGodina= +brojGodina;//preko oznake + ce se izvrsiti konverzija u number tip podatka
 console.log(typeof brojGodina);
 console.log(brojGodina);
-//2.nacin
+//2.nacinn
 brojGodina=Number(brojGodina);
 console.log(typeof brojGodina);
 
