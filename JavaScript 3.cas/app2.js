@@ -123,8 +123,7 @@ console.log(prom11>=prom12);
 //condition ? exprIfTrue:exprIfFalse
 
 // 5.Logicki operatori;
-
-// &&  - Logicko i 
+// && - Logicko i:
 let var1,var2;
 var1=40;
 var2=17;
