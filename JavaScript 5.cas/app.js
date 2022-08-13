@@ -45,10 +45,10 @@ if (nekiBroj%2 === 0) {
 }
 
 //Napisati program koji,ako je uneti broj veci od 0 stampa poruku broj je pozitivan,
-//u suprutnom broj je negativan>
+//u suprutnom broj je negativan
 
 const nekiBrojj =Number(prompt("Unesite neki broj:"));
-if (nekiBrojj>0){
+if (nekiBrojj<0){
     console.log ("Broj je negativan.");
 }else if(nekiBrojj===0){
     console.log("Broj je nula")
