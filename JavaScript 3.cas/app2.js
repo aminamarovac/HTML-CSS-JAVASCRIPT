@@ -123,8 +123,7 @@ console.log(prom11>=prom12);
 //condition ? exprIfTrue:exprIfFalse
 
 // 5.Logicki operatori;
-
-// &&  - Logicko i 
+// && - Logicko i:
 let var1,var2;
 var1=40;
 var2=17;
@@ -140,7 +139,7 @@ console.log(var1>20 || var2>20);
 let isSunny=false;
 console.log(!isSunny);
 
-//6.Tipovni operatori
+//6.Tipovni operatorii
 //typeof - Vraca tip promenljive;
 let var4=16.9;
 let var5="Trenutno je 26stepeni";
