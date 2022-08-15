@@ -1,3 +1,4 @@
+
 // 1.zadatak
 //Napisati broj koji na osnovu dva uneta broja od strane korisnika ispisuje:
 //Povrsinu kvadrata ako su uneti brojevi jednaki
@@ -22,5 +23,16 @@ switch (broja,brojb) {
     break;
   default:
         console.log(("Povrsina kvadrata iznosi:",broja*broja ,"Povrsina pravougaonika iznosi:", broja * brojb)); 
+}
+
+const broj1=Number(prompt("Unesite broj1:"));
+const broj2=Number(prompt("Unesite broj2:"));
+if(isNaN(broj1) || isNaN(broj2)) {
+    console.log("Niste uneli korektne vrednosti za brojeve");
+}else if(broj1===broj2){
+    console.log("Povrsina kvadrata na onosvu unetih brojeva je:"+broj1*broj2);
+}else{
+  console.log(
+    "Povrsina pravougaonika na osnovu unetih brojeva je:"+broj1*broj2);
 }
 
