@@ -14,7 +14,7 @@ body   {
     height: 400px;
     overflow: auto;
     }  
-/*Ako u displeju stavimo blok to 
+/*AKko u displeju stavimo blok to 
 nam onemogucuje dodatne stilove 
 kontejnjera,sto nam ne ide u korist.
 Pozeljno je koridstiti inline-block
