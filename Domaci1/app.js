@@ -12,7 +12,7 @@ if(broj===brojj){
     console.log("Povrsina pravougaonika iznosi", broj * brojj);
 }
 
-const broja=Number(prompt("Unesite broj:"));
+const broja=Number(prompt("Unesite brojj:"));
 const brojb=Number(prompt("Unesite broj:"));
 switch (broja,brojb) {
   case broja===brojb:
