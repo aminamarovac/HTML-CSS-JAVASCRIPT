@@ -57,7 +57,7 @@ for (let i = 1; i <= 10; i++) {
   }
 }
 
-// Ispisati parne brojeve od 1 do 20 na dva nacina.
+// Iispisati parne brojeve od 1 do 20 na dva nacina.
 // 1. nacin
 for (var z = 1; z <= 20; z++) {
   if (z % 2 === 0) {
