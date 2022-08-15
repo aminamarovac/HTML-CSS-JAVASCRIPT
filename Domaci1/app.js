@@ -1,4 +1,5 @@
-//1.zadatak
+
+// 1.zadatak
 //Napisati broj koji na osnovu dva uneta broja od strane korisnika ispisuje:
 //Povrsinu kvadrata ako su uneti brojevi jednaki
 //Povrsinu pravougaonika ako su uneti brojevi razliciti.
