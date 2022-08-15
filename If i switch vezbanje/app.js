@@ -40,7 +40,7 @@ switch(brojc){
         break;
 }
 
-//Napisati program koji proverava da li je uneti broj od strane korisnika paran ili neparan i ispisuje odgovarajucu poruku.
+//Napisaati program koji proverava da li je uneti broj od strane korisnika paran ili neparan i ispisuje odgovarajucu poruku.
 const brojd=Number(prompt("Unesite broj:"));
 if(brojd%2===0){
     console.log("Broj je paran");
