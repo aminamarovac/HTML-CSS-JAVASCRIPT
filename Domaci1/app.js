@@ -1,4 +1,3 @@
-
 // 1.zadatak
 //Napisati broj koji na osnovu dva uneta broja od strane korisnika ispisuje:
 //Povrsinu kvadrata ako su uneti brojevi jednaki
@@ -35,4 +34,3 @@ if(isNaN(broj1) || isNaN(broj2)) {
   console.log(
     "Povrsina pravougaonika na osnovu unetih brojeva je:"+broj1*broj2);
 }
-
