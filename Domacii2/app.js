@@ -1,62 +1,31 @@
+// Domaci:
 // 1.zadatak
-//Napisati broj koji na osnovu dva uneta broja od strane korisnika ispisuje:
-//Povrsinu kvadrata ako su uneti brojevi jednaki
-//Povrsinu pravougaonika ako su uneti brojevi razliciti.
+// Ispisati neparne brojeve od 1 do 20 na dva nacina.
+for(var x=1; x<=20;x++){
+    if (x%2!==0){
+    console.log(x);
+    }
+} 
 
-const broj9=Number(prompt("Unesite broj:"));
-const brojj8=Number(prompt("Unesite broj:"));
-if(broj9===brojj8){
-    console.log("Povrsina kvadrata iznosi", broj9 * broj9);
-}else if(broj9!==brojj8){
-    console.log("Povrsina pravougaonika iznosi", broj9 * brojj8);
+// 2.zadatak
+// Ispisati sve brojeve od 50 do 100 koji su deljivi sa 5.
+for (var y=50;y<=100;y++){
+    if (y%5===0){
+console.log(y);
+    }
+}
+// 3.zadatak
+// Ispisati dvostruku vrijednost prirodnih brojeva od 6 do 14.
+for (var a=12;a<=28;a++){
+    if(a%2===0){
+        console.log(a);
+    }
 }
 
-const broja=Number(prompt("Unesite brojj:"));
-const brojb=Number(prompt("Unesite broj:"));
-switch (broja,brojb) {
-  case broja===brojb:
-    console.log(broja,brojb);
-    break;
-  case broja!==brojb:
-    console.log(broja,brojb);
-    break;
-  default:
-        console.log(("Povrsina kvadrata iznosi:",broja*broja ,"Povrsina pravougaonika iznosi:", broja * brojb)); 
+// 4.zadatak
+// Suma neparnih prirodnih brojeva od 10 do 20.
+for (var z=10;z<=20;z++){
+    if(z%2!==0){
+        console.log(z);
+    }
 }
-
-const broj6=Number(prompt("Unesite broj1:"));
-const broj5=Number(prompt("Unesite broj2:"));
-if(isNaN(broj6) || isNaN(broj5)) {
-    console.log("Niste uneli korektne vrednosti za brojeve");
-}else if(broj6===broj5){
-    console.log("Povrsina kvadrata na onosvu unetih brojeva je:"+broj6*broj6);
-}else{
-  console.log(
-    "Povrsina pravougaonika na osnovu unetih brojeva je:"+broj6*broj5);
-}
-
-//2.zadatak
-//Korisnik unosi dva realna broja x i y.Napisati program koji izracunava i stampa
-//kolicnik x/y,ako je broj y razlicit od nule,
-//a inace ispisuje poruku:Deljenje je nemoguce.
-
-
-const brojx =Number(prompt("Unesite broj x:"));
-const brojy=Number(prompt("Unesite broj y:"));
-if (brojy!== 0) {
-	console.log(brojx / brojy);
-} else if (brojy === 0) {
-	console.log("Deljenje je nemoguce");
-}
-
-
-const broj1 =Number(prompt("Unesite broj 3:"));
-const broj2=Number(prompt("Unesite broj 4:"));
-if(isNaN (broj1) || isNaN(broj2)){
-	console.log("Niste uneli korektne vrednosti za brojeve.");
-}else if (y===0){
-	console.log("Deljenje nulom je nemoguce.");
-}else{
-	console.log("Kolicnik" + "broja" + broj1 + "i" + "broja" + broj2 + "je:" + broj1 / broj2 );
-}
-
