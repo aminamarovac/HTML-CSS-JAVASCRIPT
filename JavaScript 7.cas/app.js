@@ -6,7 +6,7 @@
 // blok koda za izvrsavanje
 // }
 
-// Ispisati brojeve od 1 do 5
+// Ispisatii brojeve od 1 do 5
 
 let broj = 1;
 
