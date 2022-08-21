@@ -16,7 +16,8 @@ console.log ("Danas je bilo pretoplo.Cekamo septembar za nesto svezije vreme");
 //    On moze biti zapisan unutar obicnih ili duplih navodnika  (nije ni bitno);
 //    Stringovi moogu biti bilo koji karakteri A-Z, 0-9;
 //    Zapisivanje stringa:
-"Danas je toplo.";
+
+"Danas je toplo.";  
 "Danas je padala kisa.";
 "Danas je padao sneg.";
 String("Danas je duvao jak vetar.");
@@ -25,6 +26,7 @@ String("Danas je duvao jak vetar.");
 //            On moze biti zapisan sa decimalom ili bez nje.
 //            JavaScript ne razlikuje tipove kod brojeva,vec su svi brojevi Number tipA.
 //            Zapisivanje brojeva:
+
 10;
 0;
 -78;
