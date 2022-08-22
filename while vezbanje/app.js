@@ -48,7 +48,7 @@ if(broja%2!==0){
     broja++
 }
 
-// Traziti od korisnika da unese neki broj. Na osnovu te vrednosti izvrsiti ispis
+// Trraziti od korisnika da unese neki broj. Na osnovu te vrednosti izvrsiti ispis
 // kvadrata brojeva od 1 do tog unetog broja:
 let broj3 = 1;
 let broj4 = Number(prompt("Unesite neki broj: "));
