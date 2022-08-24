@@ -18,7 +18,7 @@ console.log(treciKarakter);
 let nova_rec = rec.toUpperCase();
 console.log(nova_rec);
 
-// Za izracunavanje duzine stringa se koristi metoda length
+// Zaa izracunavanje duzine stringa se koristi metoda length
 let duzinaRecenice = recenica.length;
 console.log(duzinaRecenice);
 // Ispisati duzinu reci:
