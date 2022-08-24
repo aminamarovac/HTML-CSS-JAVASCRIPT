@@ -1,0 +1,91 @@
+h1   {
+    background-color: blue;
+    color: white;
+    font-size: xx-large;
+}
+
+h2   {
+    background-color: plum;
+    color: rebeccapurple;
+    font-size: x-large;
+}
+
+h3   {
+    background-color: springgreen;
+    color: tomato;
+    font-size: smaller;
+}
+
+p1   {
+    background-color: antiquewhite;
+    color: indigo;
+    font-size: large; 
+}
+
+h4   { 
+    background-color: aqua;
+    color: darkred;
+    font-size: larger;
+}
+
+p2   {
+    background-color: mediumpurple;
+    color: midnightblue;
+    font-size: xx-large;
+}
+
+p3   {
+    background-color: lightpink;
+    color: purple;
+    font-size: x-large;
+} 
+
+p4   {
+    background-color: lightgreen;
+    color: indianred;
+    font-size: x-large;
+}
+
+p5{
+    background-color: lightblue;
+    color: orange;
+    font-size:medium;
+}
+
+p6{
+    background-color: indigo;
+    color: aliceblue;
+    font-size: x-small;
+}
+
+p7{
+    background-color: aliceblue;
+    color: darkgreen;
+    font-size: x-large;
+}
+
+p8{
+    background-color: navy;
+    color: navajowhite;
+    font-size: larger;
+}
+
+p9{
+    background-color: deepskyblue;
+    color: firebrick;
+    font-size: x-large;
+}
+
+p10{
+    background-color: teal;
+    color: black;
+    font-size: small;
+}
+
+p11{
+    background-color: tomato;
+    color: aquamarine;
+    font-size: x-large;
+}
+
+
