@@ -18,7 +18,7 @@ if (broja<10){
     console.log("Niste uneli broj godina.");
 }
 
-//Napisati program koji,ako je uneti broj veci od 0 stampa poruku broj je pozitivan,
+//Naapisati program koji,ako je uneti broj veci od 0 stampa poruku broj je pozitivan,
 //u suprutnom broj je negativan
 
 const brojb=Number(prompt("Unesite neki broj:"));
