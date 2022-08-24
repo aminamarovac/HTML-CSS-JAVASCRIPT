@@ -1,0 +1,36 @@
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+font-family: 'Cairo', sans-serif;
+}
+
+.header {
+    background-color: coral;
+    width: 30vw;
+    height: 4rem;
+    padding: 10px;
+    border: 2px dashed;
+}
+
+.prvi {
+    background-color: #7fffd4;
+    width: 30vw;
+    height: 4rem; 
+    padding: 10px;
+    border: 2px dotted;
+
+}
+
+.drugi {
+background-color: #ffe4c4;
+    width: 30vw;
+    height: 4rem;
+    padding: 10px;
+    border: 2px double;
+}

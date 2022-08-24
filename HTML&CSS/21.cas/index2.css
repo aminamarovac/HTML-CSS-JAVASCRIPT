@@ -1,0 +1,99 @@
+*  {
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+body  {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1  {
+    text-align: center;
+}
+
+.parent  {
+    margin: 0 auto;
+    width: 500px;
+    height: 400px;
+    background-color: rgb(80, 80, 137);
+}
+
+.child  {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(242, 170, 46);
+    /*
+    top-to-bottom- naziv animacije  3s trajanje  
+    ease in -  funkcija
+    forwards-ostaje  na mestu izvrsenja,
+    infinite-broj ponavljanja
+    alternate-,svako pomeranje predstavlja jedno
+    izvrsenje animacije
+    */
+    animation: top-to-bottom 3s ease-in forwards infinite alternate;
+    
+
+}
+
+.parent:hover  .child  {
+    animation-play-state: paused;
+
+}
+
+@keyframes top-to-bottom  {
+    33%  {
+        background-color: rgb(173, 148, 114);
+        transform: translate(350px,80px);
+    }
+
+    66%  {
+        background-color: rgb(236, 180, 107);
+        transform: translate(350px,160px);
+
+    }
+
+    100%  {
+        background-color: black;
+        transform: translateY(250px);
+        border-radius: 50%;
+    }
+
+
+}
+
+.main  {
+    margin: 0 auto;
+    width: 500px;
+    height: 400px;
+    background-color: rgb(9, 176, 48);
+
+}
+
+.head  {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(40, 23, 86);
+    animation: top-to-bottom 2s ease-in forwards infinite alternate;
+}
+
+@keyframes top-to-bottom  {
+    33%  {
+        background-color: rgb(173, 148, 114);
+        transform: translate(350px,80px);
+    }
+
+    66%  {
+        background-color: rgb(236, 180, 107);
+        transform: translate(350px,160px);
+
+    }
+
+    100%  {
+        background-color: black;
+        transform: translateY(250px);
+        border-radius: 50%;
+    }
+}
