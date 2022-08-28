@@ -53,36 +53,42 @@ console.log(recenica3);
 
 // Za Domaci :
 // Ispisati novu recenicu gde ce svaka rec zavrsavati velikim slovom.
-recenica = "za nedelju dana je test, gde zavrsavamo prvi ciklus od 3 ovog kursa";
+recenica = "Za nedelju dana je test , gde zavrsavamo prvi ciklus od 3 ovog kursa ";
+let recenica55=" ";
+for(let i=0;i<recenica.length;i++){
+    if(i===0){
+        recenica55 += recenica[i].toUpperCase();
+    }else if(recenica[i+1] === " "){
+        recenica55 += recenica[i].toUpperCase();
+    }else{
+        recenica55+=recenica[i]
+    }
+}
+console.log(recenica55);
 //
 
 // Napraviti novu recenicu koja ce imati isti tekst, ali bez razmaka. 
-let recenica4 = "";
-
-for (let i = 0; i<recenica.length; i++) {
-    if (recenica[i] === " " ) {
+let recenica99="";
+for(let i=0;i<recenica.length;i++){
+    if(recenica[i]===" "){
         continue
-    } else {
-        recenica4 += recenica[i]
+    }else{
+        recenica99 += recenica[i]
     }
 }
+console.log(recenica99);
 
-console.log(recenica4);
 
-recenicaa = "banana je omiljeno voce Talibovo. Banana nam stize iz Paname. I banane su jako zdrave.";
-let recenica5 = ""
 // Napravi novu recenicu gde ce umesto slova a pisati "t". Dok ako se posle slova "a" nalazi slovo "n" pisace "d" umesto "a".
-
-for (let i=0; i<recenicaa.length; i++) {
-    if (recenicaa[i] === "a" && recenicaa[i+1] === "n") {
-        recenica5 += "d";
-    }
-    if (recenicaa[i] === "a") {
-        recenica5 += "t";
-    } 
-    else {
-        recenica5 += recenicaa[i]
+recenicaa111 = "banana je omiljeno voce Talibovo. Banana nam stize iz Paname. I banane su jako zdrave.";
+let recenica5=" ";
+for(let i=0;i<=recenicaa111.length -1 ; i++){
+    if(recenicaa111[i]==="a" && recenicaa111[i+1]==="n"){
+        recenica5+="d"
+    }else if(recenicaa111[i]==="a"){
+        recenica5+="t";
+    }else{
+        recenica5+=recenicaa111[i];
     }
 }
-console.log(recenica5)
-
+console.log(recenica5);
