@@ -5,7 +5,7 @@ while(brojj1<=10){
     brojj1++;
 }
 
-//sve parne od 25 do 32
+//sve parnee od 25 do 32
 let brojj11=25;
 while(brojj11<33){
     if(brojj11%2===0){
