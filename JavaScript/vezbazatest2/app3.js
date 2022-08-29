@@ -152,10 +152,10 @@ let brojBrojeva = 0;
 let zbirBrojeva = 0;
 
 for (let i = 3; i < 18; i++) {
-  if (i % 3 === 0) {
+    if (i % 3 === 0) {
     brojBrojeva += 1;
     zbirBrojeva += i;
-  }
+}
 }
 aritSredina = zbirBrojeva / brojBrojeva;
 
@@ -214,11 +214,27 @@ broj3=0;
 zbir3=0;
 let n3=Number(prompt("unesite broj a"));
 let n4=Number(prompt("unesite broj b"));
+
 for(let w=n3;w<=n4;w++){
     if(w%5===0){
         broj3+=1;
         zbir3+=w;
-    }
-}
 arit3=zbir3/broj3
 console.log("aritmeticka sredina je:" + arit3);
+}
+}
+if(isNaN(n3) || isNaN(n4)){
+    console.log("niste uneli konkretne vrednosti");
+}else if(n3===n4){
+    console.log("brojevi moraju biti razliciti");
+}else if(n3<n4){
+    while(n3<=n4){
+        n3++;
+        console.log(n3);
+    }
+}else if(n3>n4){
+    while(n4<=n3){
+            n4++;
+            console.log(n4);
+        }
+    }  
