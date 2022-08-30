@@ -207,7 +207,7 @@ console.log(recenica55);
 
 // 1.
 // Korisnik unosi 2 broja:
-// Na osnovu toga koji je broj manji, iteracija se vrsi od njega do veceg broja.
+// Naa osnovu toga koji je broj manji, iteracija se vrsi od njega do veceg broja.
 // Izracunati aritmeticku sredinu brojeva koji su deljivi sa 5.
 
 broj3=0;
