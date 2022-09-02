@@ -194,8 +194,9 @@ if(isNaN(n15) || n15<12 || n15>16){
 
 recenica = "Za nedelju dana je test , gde zavrsavamo prvi ciklus od 3 ovog kursa ";
 let recenica55=" ";
-for(let i=0;i<recenica.length;i++){
-    if(i===0){
+let len = recenica.length;
+for(let i=0;i<len;i++){
+    if(i===len - 1){
         recenica55 += recenica[i].toUpperCase();
     }else if(recenica[i+1] === " "){
         recenica55 += recenica[i].toUpperCase();

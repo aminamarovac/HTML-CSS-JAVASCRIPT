@@ -50,18 +50,20 @@ console.log(recenica222);
 
 
 //svaka rec se zavrsava velikim slovom
-recenicat = " za nedelju dana je test , gde zavrsavamo prvi ciklus od 3 ovog kursa .";
-let recenicap=" ";
-for(let d=0;d<recenicat.length;d++){
-    if(d===0){
-    recenicap += recenicat[d].toUpperCase()
-    } else if(recenicat[d+1]===" "){
-    recenicap += recenicat[d].toUpperCase()
-    } else{
-    recenicap+=recenicat[d]
+recenica = "Za nedelju dana je test , gde zavrsavamo prvi ciklus od 3 ovog kursa ";
+let recenica55=" ";
+let len = recenica.length;
+for(let i=0;i<len;i++){
+    if(i===len - 1){
+        recenica55 += recenica[i].toUpperCase();
+    }else if(recenica[i+1] === " "){
+        recenica55 += recenica[i].toUpperCase();
+    }else{
+        recenica55+=recenica[i]
     }
 }
-console.log(recenicap);
+console.log(recenica55);
+
 
 // Napraviti novu recenicu koja ce imati isti tekst, ali bez razmaka.
 
