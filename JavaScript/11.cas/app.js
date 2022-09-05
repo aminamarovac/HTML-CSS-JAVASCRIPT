@@ -14,13 +14,25 @@ console.log(prom2);
 // “NAkOn dAnAsnjEg tEstA cEmO znAtI kO cE nAstAvItI sA drUgIm cIklUsOm It cAmpA.”
 
 
-let recenica = "Nakon danasnjeg testa cemo znati ko ce nastaviti sa drugim ciklusom it campa.";
-let recenica1 = "";
-for(i=0;i<=recenica.length;i++){
-    if(recenica[i]===a || recenica[i]===o || recenica[i]===i || recenica[i]===e || recenica[i]===u){
-        recenica1+=recenica[i].toUpperCase();
-    }else if(i===recenica.length){
-        recenica1+=recenica[i];
-    }
+let recenica =
+"Nakon danasnjeg testa cemo znati ko ce nastaviti sa drugim ciklusom it campa";
+
+let recenica2 = "";
+
+for (i = 0; i <= recenica.length; i++) {
+if (
+    recenica[i] === "a" ||
+    recenica[i] === "e" ||
+    recenica[i] === "i" ||
+    recenica[i] === "o" ||
+    recenica[i] === "u"
+) {
+    recenica2 += recenica[i].toUpperCase();
+} else if (i === recenica.length) {
+    recenica2 += ".";
+} else {
+    recenica2 += recenica[i];
 }
-console.log(recenica1);
+}
+
+console.log(recenica2);
