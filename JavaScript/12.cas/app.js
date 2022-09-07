@@ -20,4 +20,4 @@ const treciZadatak=function(recenica){
 }
 
 console.log(treciZadatak("Pocela je nova skolska godina."));
-console.log(recenica2); //promenljive koje su definisane unutar function scope nisu dostupne u global scope.
+console.log(recenica2); //promenljive koje su definisane unutar function scope nisu dostupne u global scopee.
