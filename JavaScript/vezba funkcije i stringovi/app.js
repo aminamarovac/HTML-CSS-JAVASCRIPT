@@ -1,24 +1,5 @@
 //stringovi
 
-let recenica="Danas je lepo vreme"
-let rec="Danas"
-
-let treciKarakter=recenica[2];
-console.log(treciKarakter);
-
-let novaRec=recenica.toUpperCase();
-console.log(novaRec);
-
-let duzinaRecenice=recenica.length;
-console.log(duzinaRecenice);
-console.log(rec.length);
-
-let recenica2 = "Danas je bilo promenjljivo vreme"
-for(i=0;i<recenica2.length;i++){
-    console.log(recenica2[i]);
-}
-
-
 let recenicaa=" Danas je lepo vreme "
 let recenica3=" ";
 for(i=0;i<recenicaa.length;i++){
