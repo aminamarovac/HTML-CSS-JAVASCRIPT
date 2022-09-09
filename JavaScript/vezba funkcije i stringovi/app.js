@@ -1,5 +1,3 @@
-
-
 //stringovi
 
 let recenica="Danas je lepo vreme"
