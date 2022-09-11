@@ -1,13 +1,3 @@
-// Napraviti novu recenicu koja ce imati isti tekst, ali bez razmaka. 
-let recenica99="";
-for(let i=0;i<recenica.length;i++){
-    if(recenica[i]===" "){
-        continue
-    }else{
-        recenica99 += recenica[i]
-    }
-}
-console.log(recenica99);
 
 let recenicaa=" Danas je lepo vreme "
 let recenica3=" ";
