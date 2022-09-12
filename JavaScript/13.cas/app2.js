@@ -18,7 +18,7 @@ console.log(recenica2);
 let recenica22='Medicinska skola u Novom Pazaru se zove "DVA HEROJA" . Naziv je dobila po herojima koji su izgubili svoje zivote prilikom spasavanja bebe.'
 console.log(recenica22);
 
-//3.NACIN:(koriscenjem \ (backslash) komande.)
+//3.NACIN:(koriscenjem \ (backslash) komande:
 let recenica222='Medicinska skola u Novom Pazaru se zove "DVA HEROJA" . Naziv je dobila po herojima koji su izgubili svoje zivote prilikom spasavanja bebe.'
 console.log(recenica222);
 let novaRecenica="Neka nova recenica koja treba sadrzati \\ backslash kao deo stringa";
