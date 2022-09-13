@@ -77,7 +77,7 @@ console.log(sentence1And2);
 // 3.pola recenice ispisano velikim slovima,pola malim slovima (length se primenjuje)
 // 4.Ako se u recenici nadje rec 'skola'(bilo gde),neka bude zamenjena recju 'fakultet' .
 // 5.neka bude ispisano prvih 10 karaktera unete recenice.
-// 6.neka bude ispisano poslednjih 10 karaktera unete recenice.
+// 6.neka bude ispisano poslednjih 10 karaktera unete recenicee.
 
 console.log("Danas\nradimo\nnesto\nnovo");
 
