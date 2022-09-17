@@ -52,7 +52,7 @@ console.log(matchingThe);
 var matchingThe2=recenica.match(/the/gi);
 console.log(matchingThe2);
 
-// includes() metoda nam vraca boolean
+// includes() metodaa nam vraca boolean
 
 var recenica="Jos najvise jedan cas cemo raditi string metode."
 var isPresence=recenica.includes("cas");

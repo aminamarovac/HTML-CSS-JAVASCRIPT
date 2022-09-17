@@ -5,5 +5,4 @@ const  brojFlasa=function(){
     const ukupnaKolicina=+prompt("Unesite kolicinu limunade:");
     return Math.ceil(ukupnaKolicina/zapreminaJedne);
 }
-console.log(brojFlasa());
-
+console.log(brojFlasa())
