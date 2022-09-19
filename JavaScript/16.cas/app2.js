@@ -7,10 +7,10 @@ const  brojFlasa=function(){
 }
 console.log(brojFlasa())
 
+//Domaci:
 const pokloni = function () {
     const brojk = prompt ("Unesite broj cokoladica u jednom poklonu: ");
-    const brojn = prompt ("Unesite ukupan broj cokoladica u poklonima: ");
+    const brojn = prompt ("Unesite ukupan broj cokoladica: ");
     return Math.floor(brojn / brojk);
 }
-
 console.log(pokloni());
