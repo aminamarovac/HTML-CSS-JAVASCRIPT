@@ -1,4 +1,4 @@
-//1.zadatak:
+//1.zadatak
 //pozicija poslednjeg razmaka u stringu
 //function prviZadatak(){
     //let recenica= prompt("Unesite neku recenicu:")
