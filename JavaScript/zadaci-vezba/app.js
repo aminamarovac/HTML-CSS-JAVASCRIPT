@@ -39,4 +39,4 @@ function listpapira() {
         return `Povrsina lista papira u kvadratnim milimetrima iznosi: ${povrsina}`
     }
 }
-console.log(listpapira());
+console.log(listpapira())
