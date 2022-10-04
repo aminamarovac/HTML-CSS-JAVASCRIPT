@@ -1,5 +1,4 @@
 //Domaci:
-
 //2.zadatak
 //Napraviti funkciju koja izracunava povrsinu kruga gde poluprecnik predstavlja argument funkcije
 

@@ -1,5 +1,5 @@
 //1.zadatak
-//Napraviti funkciju koja izracunava obim kruga gde se poluprecnik unosi od strane korisnika.
+//Napraviti funkciju koja izracunava obim kruga gde se poluprecnik unosi od strane korisnikaa.
 
 function obimKruga(){
 let r=parseInt(prompt("Unesite poluprecnik kruga:"))
