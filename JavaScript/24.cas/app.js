@@ -16,7 +16,7 @@ console.log(datum);
 
 //2.new Date(godina,"mesec",dan,sat,minut,sekunda,milisekunda)
 // JavaScript mesece racuna od 0 do 11.
-// Ovaj nacin je validan ako imamo bar dva argumenta,a maximum 7.
+// Ovaj nacin je validan ako imamo bar dva argumenta,a maximum 7.    
 
 let datum2=new Date(2003,11,8,11,20,12,44);
 console.log(datum2);
@@ -127,9 +127,6 @@ console.log(trenutno);
 let setSeconds=trenutno.setSeconds(12)
 console.log(trenutno);
 
-//Domaci:
-// Napraviti funkciju koja racuna razliku u danima izmedju sledeca dva datuma:
-// "1999-05-24" i "2004-09-15",koliko ima dana izmedju ova 2 datuma 
-//date.parse
+
 
 
