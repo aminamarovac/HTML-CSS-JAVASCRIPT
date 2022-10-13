@@ -106,4 +106,4 @@ console.log(typeof Abdurahman[3]);
 
 //Niz  moze da sadrzi objekte,kao sto su datumi,nizovi,funkcije...
 const niz2=["Novi Pazar","Srbija",new Date(),["centar Nit","it-camp","drugi ciklus"],function(){return 5}];
-console.log(niz2)
+console.log(niz2);
