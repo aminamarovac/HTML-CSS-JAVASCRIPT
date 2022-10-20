@@ -3,7 +3,7 @@
 
 const grupa=["Talib","Ahmed","Mejra","Muusa","Amina","Amina","Abdurahman"];
 grupa.sort();
-console.log(grupa);
+console.log(grupa)
 
 //Za obrnuto sortiranje se koristi metoda reverse()
 grupa.reverse();
