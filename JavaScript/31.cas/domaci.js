@@ -18,3 +18,13 @@ function noviNiz (arr){
 
 console.log(noviNiz(niz2));
 
+//2.nacin
+//Na ovaj nacin nije moguce uraditi adekvatno zadatak jer nam map metoda
+//vraca novi niz sa istom duzinom kao originalni i otuda dobijamo undefined elemenet.
+// const punoletni=niz2.map((element)=>{
+//     if(element>17){
+//     return element;
+//     }
+// })
+// console.log(punoletni);
+
