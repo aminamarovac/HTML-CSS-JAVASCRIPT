@@ -11,6 +11,7 @@ const numbers4=numbers3.map((element)=>+Math.sqrt(element,2).toFixed(2))
 console.log(numbers4);
 console.log((typeof(numbers4[2])));
 
+//1.nacin
 //3.kvadrirati brojeve koje imaju index 0,3,5
 const numbers5=[-8,-7,-12,0,5,23,61];
 const numbers6=numbers5.map((element,index)=>{
@@ -22,3 +23,9 @@ const numbers6=numbers5.map((element,index)=>{
 }
 )
 console.log(numbers6);
+
+//2.nacin
+const numbers7=numbers5.map((element,index)=>{
+  return   index===0 || index===3 || index===5?element**2:element;
+})
+console.log(numbers7);
