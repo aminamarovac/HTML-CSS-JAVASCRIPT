@@ -53,66 +53,85 @@
 // console.log(boje);
 // console.log(unshift)
 
-//forEach
-let niz=["Imran","Talib","Ahmed","Abdurahman","Muhamed"];
-// niz.forEach((element)=>console.log(element));
+// //forEach
+// let niz=["Imran","Talib","Ahmed","Abdurahman","Muhamed"];
+// // niz.forEach((element)=>console.log(element));
 
-// for(element of niz){
-//     console.log(element);
+// // for(element of niz){
+// //     console.log(element);
+// // }
+
+// // for(i=0;i<niz.length;i++){
+// //     console.log(niz[i]);
+// // }
+
+// // niz.forEach((element,index,array)=>console.log(`${element}:${index} i treci element je zapravo
+// // ceo niz: ${array}`));
+
+
+// let brojevi1=[2,9,92,672,67,30];
+// function ceoNiz(arr){
+//     noviNiz2=[];
+//     for(number of arr){
+//         noviNiz2.push(number+2);
+//     }
+//     return noviNiz2;
 // }
+// console.log(ceoNiz(brojevi1));
 
-// for(i=0;i<niz.length;i++){
-//     console.log(niz[i]);
+
+// const viNiz3=brojevi1.map((element)=>element+2);
+// console.log(viNiz3);
+
+// const niz55=niz.map((element)=>element+ "_Prezime") ;
+// console.log(niz55);
+
+// let brojevi2=[333,2,-3,9,92,672,67,30];
+// let pozitivniNaKvadrat=brojevi2.map((element)=>{
+//     if(element>0){
+//         return element**2;
+//     }else{
+//         return element;
+//     }
+// })
+// console.log(pozitivniNaKvadrat);
+
+
+
+// niz222=[2,-3,5,9,-22,82,2,90,23,14,42,9,22,18];
+// function niz9(arr){
+//     let niz90=[ ];
+//     for(number of arr){
+//         if(number > 17){
+//     niz90.push(number)
+//         }
+//     }
+//     return niz90.sort((a,b)=>a-b);
+// };
+// console.log(niz9(niz222));
+
+
+// niz1=["muhamed","ahmed","abdurahman"];
+// niz2=niz1.map((element)=>{
+//     return `${element[0].toUpperCase()}${element.slice(1,element.length)}`
+// });
+// console.log(niz2);
+
+// const numbers2=numbers.map((element)=>element**2);
+// console.log(numbers2);
+
+//kvadratni koreni
+// numbers3=numbers.map((element)=> + Math.sqrt(element,2).toFixed(2));
+// console.log(numbers3);
+
+
+//kvadratne korene elemenata koji imaju indexe 1,3,5
+// numbers55=numbers.map((element,index)=>{
+//     if(index===0 || index===3 || index===5){
+//         return element**2;
+//     }else{
+//         return element;
+//     }
 // }
-
-// niz.forEach((element,index,array)=>console.log(`${element}:${index} i treci element je zapravo
-// ceo niz: ${array}`));
-
-
-let brojevi1=[2,9,92,672,67,30];
-function ceoNiz(arr){
-    noviNiz2=[];
-    for(number of arr){
-        noviNiz2.push(number+2);
-    }
-    return noviNiz2;
-}
-console.log(ceoNiz(brojevi1));
-
-
-const viNiz3=brojevi1.map((element)=>element+2);
-console.log(viNiz3);
-
-const niz55=niz.map((element)=>element+ "_Prezime") ;
-console.log(niz55);
-
-let brojevi2=[333,2,-3,9,92,672,67,30];
-let pozitivniNaKvadrat=brojevi2.map((element)=>{
-    if(element>0){
-        return element**2;
-    }else{
-        return element;
-    }
-})
-console.log(pozitivniNaKvadrat);
-
-
-
-niz222=[2,-3,5,9,-22,82,2,90,23,14,42,9,22,18];
-function niz9(arr){
-    let niz90=[ ];
-    for(number of arr){
-        if(number > 17){
-    niz90.push(number)
-        }
-    }
-    return niz90.sort((a,b)=>a-b);
-};
-console.log(niz9(niz222));
-
-
-niz1=["muhamed","ahmed","abdurahman"];
-niz2=niz1.map((element)=>{
-    return `${element[0].toUpperCase()}${element.slice(1,element.length)}`
-});
-console.log(niz2);
+// )
+// console.log(numbers55);

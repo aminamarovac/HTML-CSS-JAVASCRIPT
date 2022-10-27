@@ -1,5 +1,4 @@
 //napraviti novi niz koji ce sadrzati kvadrate elemenata postojeceg niza
-
 const numbers=[2,5,10,3,4,8];
 const numbers2=numbers.map((element)=>element**2);
 console.log(numbers2);
@@ -29,3 +28,4 @@ const numbers7=numbers5.map((element,index)=>{
   return   index===0 || index===3 || index===5?element**2:element;
 })
 console.log(numbers7);
+
