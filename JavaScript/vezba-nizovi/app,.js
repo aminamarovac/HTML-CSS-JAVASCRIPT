@@ -135,3 +135,51 @@
 // }
 // )
 // console.log(numbers55);
+
+
+const nizA=[22,34,90,7,29,37,41];
+const nizB=nizA.filter((element)=>{
+    return element<17
+});
+console.log(nizB);
+
+const nizC=nizA.filter((element)=>{
+    return element>17 && element%2===0
+})
+console.log(nizC);
+
+const nizD=nizA.filter((element)=>{
+    return element%2===0
+})
+console.log(nizD);
+
+const words=["televizor","daljinski","telefon","voda","ranac","stolica"];
+const drugoSlovo=words.filter((element)=>{
+    return element[1]==="e";
+})
+console.log(drugoSlovo);
+
+const nizE=words.filter((element)=>{
+    return element.length<=6;
+})
+console.log(nizE);
+
+const newArr=["Rec","Dve REci",26,true,false,[true,false],39,true];
+const newArr2=newArr.filter((element)=>{
+    return typeof element==="boolean";
+})
+console.log(newArr);
+console.log(typeof[1,2]);
+console.log([1,2,3]instanceof Array);
+console.log(Array.isArray([1,2,3]));
+
+const niz7=[91,-14,-5,22,34,55,54,29,12,6,7];
+const niz8=niz7.filter((element)=>{
+    return element%2===0 && element<=50;
+})
+console.log(niz8);
+console.log(typeof (niz8));
+
+
+
+

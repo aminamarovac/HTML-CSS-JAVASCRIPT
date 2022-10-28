@@ -51,10 +51,21 @@ console.log(Array.isArray([1,2,3]));
 
 //niz koji se sastoji iz parnih brojeva,
 // manjih ili jednakih 50 postojeceg niza
-const niz7=[91,-14,-5,22,34,55,54,29,12,6,7];
+let niz7=[91,-14,-5,22,34,55,54,29,12,6,7,-2,1];
 const niz8=niz7.filter((element)=>{
 return element%2===0 && element<=50
 }
 )
 console.log(niz8);
+
+const niz9=niz7.filter((element)=>{
+    return element<2;
+})
+console.log(niz9);
+
+const novi=niz7.filter((element)=>{
+    element<2;
+    return element*8;
+    e
+})
 
