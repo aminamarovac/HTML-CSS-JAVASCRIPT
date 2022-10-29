@@ -66,6 +66,5 @@ console.log(niz9);
 const novi=niz7.filter((element)=>{
     element<2;
     return element*8;
-    e
 })
 

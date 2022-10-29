@@ -7,25 +7,45 @@
 //    Ostale vrednosti da ne uzima u obzir
 //    I na kraju treba novi niz vratiti sa godinama <10.
 
-let niz1 = [-9, -78, 4, 17, -22, -5, 7, 6, 10, 18];
-function function1() {
-const niz2 = niz1.map((element) => {
-if (element > 2 && element < 8) {
-		return (element * 4) / 2;
-} else if (element > 2) {
-		return element * 7;
-} else {
-		return element;
-		}
-	}
-   )
-   const filtriran = niz2.filter((element) => {
-	   return element < 10;
-	}
-   )
-	   return filtriran;
-}
-console.log(function1());
+
+// First task,second way
+//dozvoljeno je odjednom primeniti vise metoda
+
+
+
+const niz = [-9, -78, 4, 17, -22, -5, 7, 6, 10, 18];
+
+const firstTask = (arr) => {
+  const filtered = arr.filter((element) => element > 2);
+  const mapped = filtered.map((element) => {
+    // uslov ? stvar za izvrsavanje : stvar koja se inace izvrsava
+    return element < 8 ? (element * 4) / 2 : element * 7;
+    // if (element < 8) {
+    //     return (element *4 )/2
+    // } else {
+    //     return element * 7
+    // }
+  });
+  const lessThan10 = mapped.filter((element) => element < 10);
+  return lessThan10;
+};
+console.log(firstTask(niz));
+
+// First task, second way
+// Dozvoljeno je odjednom primeniti vise metoda!
+const firstTaskS = (arr) => {
+  const lessThan10 = arr
+    .filter((element) => element > 2)
+    .map((element) => {
+      return element < 8 ? (element * 4) / 2 : element * 7;
+    })
+    .filter((element) => element < 10);
+  return lessThan10;
+};
+
+console.log(firstTaskS(niz));
+
+
 
 // 2. Zadatak NAPRAVITI FUNKCIJU
 // Prvi deo. Napraviti pomocni niz koji ce sadrzati elemente od oba niza.
@@ -36,6 +56,12 @@ console.log(function1());
 
 // const DATA1 = [2, 26, 38, 75, 11, 29];
 // const DATA2 = ["a", "b", "c", "d", "e"];
+
+
+
+
+
+
 
 
 
