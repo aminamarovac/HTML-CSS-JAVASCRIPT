@@ -40,4 +40,4 @@ function samAdult2nd(arr){
 }
 
 console.log(samAdult2nd(godine));
-//Fugonacijev niz
+//Fugonacijev nizz

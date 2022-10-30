@@ -55,7 +55,7 @@ console.log(firstTaskS(niz));
 // Funkcija na kraju treba da vrati dva napravljena pomocna niza.
 
 // const DATA1 = [2, 26, 38, 75, 11, 29];
-// const DATA2 = ["a", "b", "c", "d", "e"];
+// const DATA2 = ["a", "b", "c", "d", "e"]
 
 
 
