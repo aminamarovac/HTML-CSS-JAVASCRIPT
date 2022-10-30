@@ -178,7 +178,7 @@ const niz8=niz7.filter((element)=>{
     return element%2===0 && element<=50;
 })
 console.log(niz8);
-console.log(typeof (niz8));
+console.log(typeof (niz8))
 
 
 
