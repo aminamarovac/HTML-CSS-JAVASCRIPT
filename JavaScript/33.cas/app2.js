@@ -54,8 +54,16 @@ console.log(firstTaskS(niz));
 // Treci deo. U drugom pomocnom nizu umetnuti na prva dva mesta 10 i 20.
 // Funkcija na kraju treba da vrati dva napravljena pomocna niza.
 
-// const DATA1 = [2, 26, 38, 75, 11, 29];
-// const DATA2 = ["a", "b", "c", "d", "e"]
+const DATA1 = [2, 26, 38, 75, 11, 29];
+const DATA2 = ["a", "b", "c", "d", "e"];
+const oldTask=(arr1,arr2)=>{
+  const newArr=arr1.concat(arr2);
+  const newArr2=newArr.filter((element)=>element%2===0);
+  newArr2.unshift(10,20);
+  return `Prvi pomocni niz je ${newArr}, \n Drugi pomocni element niza je ${newArr2}.`
+}
+console.log(oldTask(DATA1,DATA2));
+
 
 
 
