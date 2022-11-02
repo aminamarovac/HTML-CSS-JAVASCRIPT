@@ -30,16 +30,10 @@ const myFunction2=()=>{
 }
 console.log(myFunction2())
 
-
-
 // niz[i]=niz[i-2] + niz[i-1]
 // niz[0]+niz[1];
 
 //treci je niz od prvog plus niz od drugog
 
-// Broj palindrom se cita isto sa obe strane. Najveci palindrom napravljen od proizvoda dva
 
-//  dvocifrena broja je 9009 = 91 x 99.
-
-//  Pronaci najveci palindrom napravljen od proizvoda dva trocifrena broja.
 
