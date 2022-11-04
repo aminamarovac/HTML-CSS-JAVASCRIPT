@@ -26,8 +26,6 @@ console.log("Pozdrav iz konzole");
 //"a" je razlicito od "A"
 
 //     JavaScript varijable
-
-// Postoji nekoliko nacina da deklerisemo varijablu:
 // Koriscenjem var kljucne reci (keyword)
 var x; // deklaracija
 x=10;  //dodela vrednosti promenljivoj x (inicijalizacija)
