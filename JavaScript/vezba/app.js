@@ -40,6 +40,47 @@ return palindroms[0];
 };
 console.log(highestPolindrom3());
 
+niz100=["Bela","Crvena","Plava","Zuta"];
+console.log(niz100.indexOf("Plava"));
+
+function funkcija1(arr){
+    if(arr.indexOf("Crvena")){
+        return `Nema crvene boje.`;
+    }else{
+        return `Crvena boja se nalazi na ${arr.indexOf("Crvena")+1}`;
+    }
+}
+console.log(funkcija1(niz100));
+
+function funkcija11(arr){
+    if(arr.lastIndexOf("Crvena")){
+        return `Nema crvene boje.`;
+    }else{
+        return `Crvena boja se nalazi na ${arr.lastIndexOf("Crvena")+1}`;
+    }
+}
+console.log(funkcija11(niz100));
+
+niz111=niz100.includes("narandzasta");
+console.log(niz111);
+
+const indexi=niz100.keys()
+for(let index of indexi){
+    console.log(index);
+}
+
+const indexIVrednosti=niz100.entries();
+console.log(indexIVrednosti);
+
+for(let index2 of indexIVrednosti){
+    console.log(index2);
+}
+
+svastara=[["prva","druga","treca"],["deseta","jedanaesta","dvanaesta"],
+["dvadeseta","dvadesetiprva"]];
+console.log(svastara.flat());
+svastara2=svastara.flat().sort();
+console.log(svastara2);
 
 
 
