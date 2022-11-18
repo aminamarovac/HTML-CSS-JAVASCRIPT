@@ -19,7 +19,7 @@ const person2={
 }
 console.log(person2);
 
-//Sintaksa za koriscenje ovih funkcija je:
+//Sintaksa za koriscenje ovih funkcija je
 //Prvo ide pozivanje funkcije,pa onda kao argumenti date funkcije
 //idu:
 //1.Objekat za koji zelimo da se primeni data metoda;
