@@ -25,7 +25,7 @@ console.log(person2);
 //1.Objekat za koji zelimo da se primeni data metoda;
 //2.Eventualne argumente funkcije (ako funkcija po definiciji zahteva).
 
-console.log(person.fullName.call(person2));
+console.log(person.fullName.call(person2))
 
 const restoran={
     hrana:"pizza",
