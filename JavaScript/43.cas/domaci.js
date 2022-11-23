@@ -131,5 +131,5 @@ const array=[
     ]
         return newArray;
     }
-        console.log(newArray());
+        console.log(newArray())
         
