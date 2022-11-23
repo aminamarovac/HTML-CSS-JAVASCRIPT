@@ -30,7 +30,7 @@ const array=[
         age:19,
         eyeColor:"blue",
         hairColor:"brown",
-        laidC:false,
+        laidC:true,
     },
     //4.
     {
@@ -92,7 +92,7 @@ const array=[
         lastName:"Hadzijasarevic",
         age:20,
         eyeColor:"brown",
-        hairColor:"brown",
+        hairColor:"blue",
         laidC:true,
     },
     //11.
@@ -117,19 +117,17 @@ const array=[
     {
         name:"Talib",
         lastName:"Dolovac",
-        age:18,
+        age:16,
         eyeColor:"brown",
         hairColor:"brown",
         laidC:false,
     }
 ]
-    function newArray(){
-        let newArray=[array.filter((element)=>{
-            return (element.eyeColor==="brown" )&&(element.laidC===false)
-        }
-        )
-    ]
-        return newArray;
-    }
-        console.log(newArray())
+const filteredStudents=(par)=>{
+    const filtered=par.filter((element)=>
+    element.eyeColor==="brown" && element.laidC===false);
+    return filtered;
+}
+console.log(filteredStudents(array));
+
         
