@@ -125,7 +125,7 @@ const array=[
 ]
     function newArray(){
         let newArray=[array.filter((element)=>{
-            return (element.eyeColor==="brown" )&&(element.laidC===true)
+            return (element.eyeColor==="brown" )&&(element.laidC===false)
         }
         )
     ]
