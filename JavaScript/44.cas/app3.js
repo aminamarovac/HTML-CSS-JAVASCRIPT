@@ -135,7 +135,7 @@ function getRating(arr) {
     return prosek;
   }
   
-  console.log(getRating(watchList));
+  console.log(getRating(watchList))
   
   //  2. Zadatak
   // Complete the code for the squareList function using any combination
