@@ -23,7 +23,7 @@ const newObj={
     bojaKose:"crna",
     kovrdzav:false
 }
-console.log(newObj);
+console.log(newObj)
 
 // Napraviti funkciju koja vraca novi niz gde je svaki
 // element objekat sa vrednostima title i budzet
