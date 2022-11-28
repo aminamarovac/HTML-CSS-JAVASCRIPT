@@ -29,7 +29,6 @@ student.lastName="Marovac";
 
 
 // seal () metoda cini objekat promenljivim,ali nije dozvoljeno dodavanje niti brisanje elemenata.
-
 // Object.seal(student);
 // student.godinaRodjenja=2003;
 // console.log(student);
