@@ -4,7 +4,6 @@
 let voce=["jagoda","banana","mandarina","ananas"];
 //Ovaj nacin brisanja elementa u nizu nam ostavlja prazna mesta.
 delete voce[2];
-
 console.log(voce);
 //Preporucuje se koriscenjenje pop ili push metode.
 
