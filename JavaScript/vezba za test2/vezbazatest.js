@@ -263,7 +263,7 @@ const firstTask=()=>{
     }
     return nizVoca;
 }
-console.log(firstTask());
+console.log(firstTask())
 
 
 
