@@ -52,4 +52,4 @@ const CART_DATA = [
     const second = potr.reduce((a,b)=> 
        a+b,shippingCosts
     )
-return ``
+  
