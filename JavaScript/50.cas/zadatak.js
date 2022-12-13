@@ -19,4 +19,4 @@ function myFunction(A,B){
 
 }
 console.log(myFunction("PERA","sladoled"));
-console.log(myFunction("OVO JE SADA DUZI STRING","sladoled"));
+console.log(myFunction("OVO JE SADA DUZI STRING","sladoled"))
