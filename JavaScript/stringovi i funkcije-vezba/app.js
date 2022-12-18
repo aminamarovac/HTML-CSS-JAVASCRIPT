@@ -148,7 +148,7 @@ console.log(sentence1And2);
 let sentence11="Sutra ce ";
 let sentence22="biti kisovito.";
 let sentence11And22=sentence11.concat(sentence22);
-console.log(sentence11And22);
+console.log(sentence11And22)
 
 
 //Napraviti funkciju koja trazi od korisnika da unese neku recenicu,zatim funkcija vraca
