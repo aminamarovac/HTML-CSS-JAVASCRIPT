@@ -57,5 +57,5 @@ const newUser=new User("Amina","Marovac",2003);
 const newUser2=new User("Dubrovacka 140","Novi Pazar","Srbija",066)
 console.log(newUser);
 newUser.calcuateAge();
-console.log(newUser2);
+console.log(newUser2)
 
