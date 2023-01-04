@@ -86,7 +86,7 @@ const additional = new AdditionalInfo(
   "Dubrovacka140.",
   "Novi Pazar",
   "Serbia",
-  "0656565666"
+  "0631387323"
 ); 
 
 console.log(additional);
