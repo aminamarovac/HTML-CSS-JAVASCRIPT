@@ -1,3 +1,5 @@
+
+//korekcija
 class Car{
     constructor(carName,carType){
         this.name=carName;
