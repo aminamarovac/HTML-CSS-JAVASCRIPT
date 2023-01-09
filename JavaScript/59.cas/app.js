@@ -41,4 +41,4 @@ natureImg.addEventListener("click", () => {
 // program da obavi
 console.log(natureImg.getAttribute("src"));
 
-// getAttribute je funkcija koja uzima unete podatke atributa koji se nalaze unutar elemenata koji smo naznacili
+// getAttribute je funkcija koja uzima unete podatke atributa koji se nalaze unutar elemenata koji smo naznacilii
