@@ -10,4 +10,4 @@ class Car{
     }
 }
 const newCar=new Car("audi","limo");
-newCar.showAttr();
+newCar.showAttr()
