@@ -1,11 +1,11 @@
 import React from "react";
-import "./styledButton.css";
-const styledButton=(props)=>{
+import "./StyledButton.css";
+const StyledButton=(props)=>{
     
     return (
-    <button className='styledButton' onClick={props.onClickHandler}>
+    <button className='StyledButton' onClick={props.onClickHandler}>
         {props.innerText}
         </button>
 )};
 
-export  default styledButton;
+export  default StyledButton;
